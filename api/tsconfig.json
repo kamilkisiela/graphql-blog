@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "esnext.asynciterable"
+    ],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": false,
+    
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    
+    "moduleResolution": "node",
+    "baseUrl": "./"
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}
